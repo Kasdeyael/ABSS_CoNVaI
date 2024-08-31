@@ -1,0 +1,16 @@
+version: "3"
+services:
+    db:
+      container_name: mysqldb
+      image: mysql/mysql-server:8.0
+      ports:
+       - "3306:3306"  
+      environment:
+         - MYSQL_ROOT_PASSWORD=ChangeMainPwdHere
+         - MYSQL_DATABASE=simdb
+         - MYSQL_USER=usuario
+         - MYSQL_PASSWORD=ChangeUserPwdHere
+
+      volumes:
+         - ./mysql/data:/var/lib/mysql
+         - ./mysql/init:/docker-entrypoint-initdb.d/:ro
