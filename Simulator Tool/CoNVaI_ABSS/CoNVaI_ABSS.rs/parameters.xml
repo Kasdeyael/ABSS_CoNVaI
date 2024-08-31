@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+				<parameter name="modelType" displayName="Model (SIR, SIR-modified, User, News, CoNVaI, CoNVaI and conf)" type="int" 
+						defaultValue="1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+												values="1 2 3 4 5 6"
+												displayOrder="1.0"
+					/>
+				<parameter name="useReply" displayName="(M4-) Use probReply instead of predicted diffusion" type="boolean" 
+						defaultValue="false" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$BooleanConverter"
+												values="false true"
+												displayOrder="5.0"
+					/>
+				<parameter name="debug" displayName="Debug mode" type="boolean" 
+						defaultValue="false" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$BooleanConverter"
+												values="false true"
+												displayOrder="5.0"
+					/>
+				<parameter name="nAgents" displayName="Number of agents (if fileAgents is empty)" type="int" 
+						defaultValue="100" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+												displayOrder="2.0"
+					/>
+				<parameter name="linksPerNode" displayName="(BA) Links per Node" type="int" 
+						defaultValue="10" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+												displayOrder="15.0"
+					/>
+				<parameter name="fileAgents" displayName="(M1-) File of the agents" type="java.lang.String" 
+						defaultValue="C:/Users/User/Desktop/users.csv" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+												displayOrder="19.0"
+					/>
+
+				<parameter name="fileNet" displayName="(File-Load) File of the network" type="java.lang.String" 
+						defaultValue="C:/Users/User/Desktop/graph_file_small.csv" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+												displayOrder="18.0"
+					/>
+				<parameter name="fileNews" displayName="(M1-) File of the news" type="java.lang.String" 
+						defaultValue="C:/Users/User/Desktop/news_diffusion.csv" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+												displayOrder="20.0"
+					/>
+				<parameter name="probDebunk" displayName="(M1-) Probability MD" type="double" 
+						defaultValue="0.3" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+												displayOrder="8.0"
+					/>
+				<parameter name="confidence" displayName="(M6) Confidence within community" type="double" 
+						defaultValue="0.2" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+												displayOrder="12.0"
+					/>
+				<parameter name="k" displayName="(M3-) K to scale timeline" type="double" 
+						defaultValue="1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+												displayOrder="12.0"
+					/>
+					
+				<parameter name="engagement" displayName="(M2) Engagement" type="double" 
+						defaultValue="0.8" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+												displayOrder="14.0"
+					/>
+				<parameter name="probChange" displayName="(M1-) Probability AD" type="double" 
+						defaultValue="0.2" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+												displayOrder="8.0"
+					/>
+				<parameter name="noveltyFactor" displayName="(M4-) Novelty Factor of News" type="double" 
+						defaultValue="0.1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+												displayOrder="24.0"
+					/>
+
+				<parameter name="probInfl" displayName="(M3-) Probability to Influence" type="double" 
+						defaultValue="0.1" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+												displayOrder="10.0"
+					/>
+				<parameter name="networkType" displayName="Network (BA, ER, Loaded from File)" type="java.lang.String" 
+						defaultValue="File-Load" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+												values="Barabasi-Albert Erdos-Renyi File-Load "
+												displayOrder="2.0"
+					/>
+				<parameter name="probNetwork" displayName="(ER) Probability to Connect" type="double" 
+						defaultValue="0.018" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+												displayOrder="17.0"
+					/>
+				<parameter name="outputFolder" displayName="Output Threads Folder" type="java.lang.String" 
+						defaultValue="C:/Users/User/eclipse-workspace/CoNVaI_ABSS/CoNVaI_ABSS/output_threads/" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$StringStringConverter"
+												displayOrder="25.0"
+					/>
+				<parameter name="probInfect" displayName="(M1-) Probability INF" type="double" 
+						defaultValue="0.7" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+												displayOrder="7.0"
+					/>
+				<parameter name="probOpinion" displayName="(M4-) Probability OPI" type="double" 
+						defaultValue="0.3" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+												displayOrder="23.0"
+					/>
+				<parameter name="initialNodes" displayName="(BA) Initial Nodes" type="int" 
+						defaultValue="10" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+												displayOrder="16.0"
+					/>
+				<parameter name="networkSeed" displayName="Default Network Seed" type="int" 
+						defaultValue="17" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+												displayOrder="4.0"
+					/>
+				<parameter name="probReply" displayName="(M3-) Probability to Reply" type="double" 
+						defaultValue="0.6" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+												displayOrder="22.0"
+					/>
+				<parameter name="randomSeed" displayName="Default Random Seed" type="int" 
+						defaultValue="768" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+												displayOrder="3.0"
+					/>
+				<parameter name="probRead" displayName="(M3-) Probability to Read a Post" type="double" 
+						defaultValue="0.5" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+												displayOrder="21.0"
+					/>
+		</parameters>
+
+
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" ?><sweep runs="1"><parameter name="linksPerNode" type="constant" constant_type="int" value="10"></parameter>
+<parameter name="useReply" type="constant" constant_type="boolean" value="false"></parameter>
+<parameter name="probNetwork" type="constant" constant_type="double" value="0.018"></parameter>
+<parameter name="engagement" type="constant" constant_type="double" value="0.8"></parameter>
+<parameter name="fileAgents" type="constant" constant_type="java.lang.String" value="./simFol/user_influences_logs.csv"></parameter>
+<parameter name="fileNet" type="constant" constant_type="java.lang.String" value="./simFol/adj_list_full.csv"></parameter>
+<parameter name="initialNodes" type="constant" constant_type="int" value="10"></parameter>
+<parameter name="fileNews" type="constant" constant_type="java.lang.String" value="./news_sources/news_content_524923462398513152.csv"></parameter>
+<parameter name="modelType" type="constant" constant_type="int" value="5"></parameter>
+<parameter name="k" type="constant" constant_type="double" value="1.0"></parameter>
+<parameter name="networkSeed" type="constant" constant_type="int" value="17"></parameter>
+<parameter name="outputFolder" type="constant" constant_type="java.lang.String" value="./simFol/testingOut/"></parameter>
+<parameter name="nAgents" type="constant" constant_type="int" value="100"></parameter>
+<parameter name="networkType" type="constant" constant_type="java.lang.String" value="File-Load"></parameter>
+	<parameter name="probDebunk" type="number" number_type="double" start="0.05" end="0.06" step="0.05">
+		<parameter name="probInfect" type="number" number_type="double" start="0.2" end="0.21" step="0.05">
+			<parameter name="probOpinion" type="number" number_type="double" start="0.3" end="0.31" step="0.05">
+				<parameter name="confidence" type="number" number_type="double" start="0.1" end="0.14" step="0.05">
+					<parameter name="probReply" type="number" number_type="double" start="0.1" end="0.11" step="0.05">
+						<parameter name="randomSeed" type="number" number_type="int" start="1" end="2" step="5">
+							<parameter name="probRead" type="number" number_type="double" start="0.3" end="0.41" step="0.05">
+								<parameter name="probChange" type="number" number_type="double" start="0.3" end="0.31" step="0.05">
+									<parameter name="noveltyFactor" type="number" number_type="double" start="0.15" end="0.16" step="0.05">
+										<parameter name="probInfl" type="number" number_type="double" start="0.1" end="0.11" step="0.05">
+										</parameter>
+									</parameter>
+								</parameter>
+							</parameter>
+						</parameter>
+					</parameter>
+				</parameter>
+			</parameter>
+		</parameter>
+	</parameter>
+</sweep>

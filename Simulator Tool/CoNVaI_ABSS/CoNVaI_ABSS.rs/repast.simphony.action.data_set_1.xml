@@ -1,0 +1,43 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.10.0">
+  <name>State Counts</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>0.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>-1650852140</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map"/>
+  <countSources class="linked-hash-map"/>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map">
+    <entry>
+      <string>infectedAgents</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>infectedAgents</id>
+        <dsClassName>dataCollection.InfectedAggregateCount</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>neutralAgents</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>neutralAgents</id>
+        <dsClassName>dataCollection.NeutralAggregateCount</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+    <entry>
+      <string>vaccinatedAgents</string>
+      <repast.simphony.data2.engine.CustomDataSourceDefinition>
+        <id>vaccinatedAgents</id>
+        <dsClassName>dataCollection.VaccinatedAggregateCount</dsClassName>
+      </repast.simphony.data2.engine.CustomDataSourceDefinition>
+    </entry>
+  </customAggDataSources>
+</repast.simphony.data2.engine.DataSetDescriptor>

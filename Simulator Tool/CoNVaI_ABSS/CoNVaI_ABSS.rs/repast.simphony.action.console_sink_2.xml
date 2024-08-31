@@ -1,0 +1,14 @@
+<repast.simphony.data2.engine.ConsoleSinkDescriptor simphonyVersion="2.10.0">
+  <name>Console State Sink</name>
+  <dataSet>State Counts</dataSet>
+  <delimiter>,</delimiter>
+  <format>LINE</format>
+  <sourceIds class="linked-hash-set">
+    <string>tick</string>
+    <string>infectedAgents</string>
+    <string>neutralAgents</string>
+    <string>vaccinatedAgents</string>
+  </sourceIds>
+  <enabled>true</enabled>
+  <outputStream>OUT</outputStream>
+</repast.simphony.data2.engine.ConsoleSinkDescriptor>
