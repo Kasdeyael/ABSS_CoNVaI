@@ -42,6 +42,21 @@ This work has been partially funded by the Spanish Research Agency (Agencia Esta
 Raquel Rodríguez-García is supported by the UNED’s FPI doctoral grant, Spain.
 
 ## Citation
+To cite this work, use the following entry:
 
-Available soon.
+@inproceedings{ijcai2025p29,
+  title     = {Simulating Misinformation Diffusion on Social Media Through CoNVaI: A Textual- and Agent-Based Diffusion Model},
+  author    = {Rodríguez-García, Raquel and Centeno, Roberto and Rodrigo, Álvaro},
+  booktitle = {Proceedings of the Thirty-Fourth International Joint Conference on
+               Artificial Intelligence, {IJCAI-25}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {James Kwok},
+  pages     = {248--256},
+  year      = {2025},
+  month     = {8},
+  note      = {Main Track},
+  doi       = {10.24963/ijcai.2025/29},
+  url       = {https://doi.org/10.24963/ijcai.2025/29},
+}
+
 
