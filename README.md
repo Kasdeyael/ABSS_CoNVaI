@@ -44,6 +44,7 @@ Raquel Rodríguez-García is supported by the UNED’s FPI doctoral grant, Spain
 ## Citation
 To cite this work, use the following entry:
 
+```
 @inproceedings{ijcai2025p29,
   title     = {Simulating Misinformation Diffusion on Social Media Through CoNVaI: A Textual- and Agent-Based Diffusion Model},
   author    = {Rodríguez-García, Raquel and Centeno, Roberto and Rodrigo, Álvaro},
@@ -58,5 +59,4 @@ To cite this work, use the following entry:
   doi       = {10.24963/ijcai.2025/29},
   url       = {https://doi.org/10.24963/ijcai.2025/29},
 }
-
-
+```
