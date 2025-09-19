@@ -27,3 +27,10 @@ This folder contains the zipped Jupyter Notebooks for the project, from the proc
 ## Regression Data
 
 This folder contains the links for the outputs of the MultiAzterTool and Empath, used within the model. 
+
+## Acknowledgements
+
+This work has been partially funded by the Spanish Research Agency (Agencia Estatal de Investigación), through the DeepInfo project PID2021-127777OB-C22 (MCIU/AEI/FEDER, UE) and the HOLISTIC ANALYSIS OF ORGANISED MISINFORMATION ACTIVITY IN SOCIAL NETWORKS project (PCI2022-135026-2).
+
+Raquel Rodríguez-García is supported by the UNED’s FPI doctoral grant, Spain.
+
